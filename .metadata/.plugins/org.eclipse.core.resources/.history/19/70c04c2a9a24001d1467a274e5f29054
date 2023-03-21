@@ -1,0 +1,13 @@
+package empoyeeDetails2;
+
+
+
+public class student{
+    public static void main(String[] args) {
+
+	int num = 10;
+	int num1 = 5;
+	boolean num3 = num <= num1;
+	System.out.println(num3);
+}
+}

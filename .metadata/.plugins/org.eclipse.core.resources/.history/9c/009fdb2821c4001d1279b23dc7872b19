@@ -1,0 +1,25 @@
+package com.base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Base_Class {
+
+	public static WebDriver driver;
+	
+    public static void setProperty() {
+    	
+    	System.setProperty("webdriver.chrome.driver", 
+				"C:\\Users\\Lenovo\\eclipse-workspace\\Maven_Project\\DriverChrome\\chromedriver.exe");
+    	
+    	driver = new ChromeDriver();
+	}
+	
+    public static void launchUrl(String url) {
+    	driver.get(url);
+ 
+    }
+	public static void maxi() {
+		driver.manage().window().maximize();
+	}
+}

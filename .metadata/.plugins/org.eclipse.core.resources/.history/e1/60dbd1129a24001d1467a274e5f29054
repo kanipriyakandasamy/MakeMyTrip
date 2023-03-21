@@ -1,0 +1,13 @@
+package empoyeeDetails2;
+
+
+
+public class student{
+    public static void main(String[] args) {
+
+		
+	float deci=0.005f;
+	boolean b=deci instanceof Float;
+	System.out.println(b);
+	}
+}

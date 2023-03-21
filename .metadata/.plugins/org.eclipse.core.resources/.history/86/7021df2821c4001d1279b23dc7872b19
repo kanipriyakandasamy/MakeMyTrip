@@ -1,0 +1,15 @@
+package com.Maven_Project;
+
+import com.base.Base_Class;
+
+public class SelconceptsUsing_Base extends Base_Class {
+
+	public static void main(String[] args) {
+
+		setProperty();
+		launchUrl("https://www.amazon.in/");
+		maxi();
+
+	}
+
+}

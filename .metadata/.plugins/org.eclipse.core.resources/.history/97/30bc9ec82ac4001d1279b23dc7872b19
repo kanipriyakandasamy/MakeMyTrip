@@ -1,0 +1,38 @@
+package com.Maven_Project;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.base.Base_Class;
+
+public class SelconceptsUsing_Base extends Base_Class {
+
+	public static void main(String[] args) throws IOException {
+
+		setProperty();
+		launchUrl("https://www.amazon.in/");
+		maxi();
+		
+		WebElement findElement = driver.findElement(By.xpath("(//a[text()='Best Sellers'])[1]"));
+		clickOnElement(findElement);
+		
+		scrnShot("C:\\Users\\Lenovo\\eclipse-workspace\\Maven_Project\\Screeshot\\kani.png");
+		getTitle();
+		getCurrentUrl();
+		navigateTo("https://demoqa.com/alerts");
+		
+		WebElement findElement1 = driver.findElement(By.xpath("//button[@id='alertButton']"));
+		clickOnElement(findElement1);
+		alert();
+		navigateTo("https://demo.automationtesting.in/Frames.html");
+		
+		implicitWait();
+		WebElement findElement2 = driver.findElement(By.xpath("(//input[@type='text'])[1]"));
+		sendKeys(findElement2, "kani");
+		dfaultContent();
+
+	}
+
+}

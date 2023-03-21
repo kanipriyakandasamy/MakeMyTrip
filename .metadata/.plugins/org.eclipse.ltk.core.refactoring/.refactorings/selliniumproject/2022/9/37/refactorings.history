@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;chromedriver.exe&apos; to &apos;chromedriver&apos;" description="Move &apos;chromedriver.exe&apos; to &apos;chromedriver&apos;" destination="chromedriver" element1="/zaheer/CHROMEDRIVER/chromedriver.exe" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1662473127393" updateReferences="true"/>
+</session>

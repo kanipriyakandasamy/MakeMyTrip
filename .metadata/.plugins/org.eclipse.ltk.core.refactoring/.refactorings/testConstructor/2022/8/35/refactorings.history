@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;testConstructor.MyClass.MyClass().x&apos; in &apos;testConstructor.MyClass.MyClass()&apos; to field&#x0D;&#x0A;- Original project: &apos;testConstructor&apos;&#x0D;&#x0A;- Original element: &apos;testConstructor.MyClass.MyClass().x&apos;&#x0D;&#x0A;- Field name: &apos;x&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;x&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;testConstructor{MyClass.java" name="x" selection="81 6" stamp="1661187278253" static="false" version="1.0" visibility="2"/>
+</session>
